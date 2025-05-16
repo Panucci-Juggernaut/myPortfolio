@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCards";
 
-import Mern from "../Assets/Projects/Mern.png";
-import nodeBlog from "../Assets/Projects/nodeBlog.png";
-import nubi from "../Assets/Projects/nubi.png";
-import mobileFirst from "../Assets/Projects/mobileFirst.png";
-import readingList from "../Assets/Projects/readingList.png";
+import mern from "../assets/Projects/Mern.png";
+import nodeBlog from "../assets/Projects/nodeBlog.png";
+import nubi from "../assets/Projects/nubi.png";
+import mobileFirst from "../assets/Projects/mobileFirst.png";
+import readingList from "../assets/Projects/readingList.png";
 
 function Projects() {
   return (
@@ -21,7 +21,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Mern}
+              imgPath={mern}
               isBlog={false}
               title="Fitness Empire"
               description="a MERN stack application which helps  you track your daily workouts, has a signup and login page, and a dashboard where you can see your daily workouts."
