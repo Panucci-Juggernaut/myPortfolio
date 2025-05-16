@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCards";
 
-import mern from "../assets/Projects/mern.png";
-import nodeBlog from "../assets/Projects/nodeBlog.png";
-import nubi from "../assets/Projects/nubi.png";
-import mobileFirst from "../assets/Projects/mobileFirst.png";
-import readingList from "../assets/Projects/readingList.png";
+import mern from "../assets/projects/mern.png";
+import nodeBlog from "../assets/projects/nodeBlog.png";
+import nubi from "../assets/projects/nubi.png";
+import mobileFirst from "../assets/projects/mobileFirst.png";
+import readingList from "../assets/projects/readingList.png";
 
 function Projects() {
   return (
