@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/ProjectCards";
 
-import mern from "../assets/Projects/Mern.png";
+import mern from "../assets/Projects/mern.png";
 import nodeBlog from "../assets/Projects/nodeBlog.png";
 import nubi from "../assets/Projects/nubi.png";
 import mobileFirst from "../assets/Projects/mobileFirst.png";
